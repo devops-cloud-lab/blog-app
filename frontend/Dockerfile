@@ -1,4 +1,4 @@
 # Simple Nginx-based frontend
 FROM nginx:alpine
-COPY ./usr/share/nginx/html
+COPY ./frontend/usr/share/nginx/html
 EXPOSE 80
